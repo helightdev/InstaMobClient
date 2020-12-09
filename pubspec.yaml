@@ -1,0 +1,47 @@
+name: instamob
+description: The InstaMob Client
+
+# Disable publishing
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  draw: any
+
+  #general
+  http: any
+  collection: any
+  quiver: any
+  provider: any
+  shared_preferences: any
+  url_launcher: any
+  mobx: any
+  flutter_bloc: any
+  bloc: any
+  sailor: any
+  chopper: any
+
+  #ui
+  eva_icons_flutter: any
+  cupertino_icons: any
+  auto_size_text: any
+  platform_detect: any
+  octo_image: any
+  adobe_xd: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: any
+  chopper_generator: any
+  mobx_codegen: any
+
+flutter:
+  uses-material-design: true
